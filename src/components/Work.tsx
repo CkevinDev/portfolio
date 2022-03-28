@@ -1,4 +1,5 @@
 import GifApp from '../assets/gifapp.png'
+import HeroesApp from '../assets/heroesapp.png'
 import {Element} from 'react-scroll'
 
 const Work = () => {
@@ -29,18 +30,18 @@ const Work = () => {
                     </div>
                 </div>
                 {/* Grid Item */}
-                <div  style={{backgroundImage:`url(${GifApp})`}} className="content-div shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto ">
+                <div  style={{backgroundImage:`url(${HeroesApp})`}} className="content-div shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto ">
                     {/* Hover effect */}
                     <div className='text-center opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            ReactJs App
+                            Heroes App
                         </span>
                         <div className='pt-8 text-center'>
-                            <a target="_blank" href="">
+                            <a target="_blank" href="https://kevettt.github.io/heroes/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Ver</button>
                             </a>
 
-                            <a target="_blank" href="">
+                            <a target="_blank" href="https://github.com/kevettt/heroes">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Codigo</button>
                             </a>
                         </div>

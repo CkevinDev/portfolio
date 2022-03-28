@@ -132,13 +132,16 @@ const Navbar = () => {
             </a>
           </li>
           <li className="w-40 h-14 flex justify-between items-center -ml-28 hover:ml-1 duration-300 bg-green-400">
-            <a
+            <Link
               className="m-2 flex justify-between items-center w-full text-gray-300"
-              target="_blank" rel="noopener"
-              href="#"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
             >
-              Email <HiOutlineMail size={30} />
-            </a>
+              Contacto <HiOutlineMail size={30} />
+            </Link>
           </li>
           <li className="w-40 h-14 flex justify-between items-center -ml-28 hover:ml-1 duration-300 bg-slate-600">
             <a
